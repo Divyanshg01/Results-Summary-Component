@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 18px;
+}
+html,
+body {
+  height: 100%;
+  /* background-color: green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  /* background-color: purple; */
+  display: flex;
+  box-shadow: 6px 6px 40px rgba(0, 0, 0, 0.242);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.result {
+  width: 50%;
+  color: white;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+
+  padding: 25px;
+
+  background: linear-gradient(
+    to bottom,
+    hsl(252, 100%, 67%),
+    hsl(241, 81%, 54%)
+  );
+  border-radius: 20px;
+}
+h2.r {
+  color: white;
+  margin-top: 18px;
+  text-align: center;
+}
+.circle {
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  background: linear-gradient(
+    to bottom,
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.large-text {
+  color: white;
+  font-size: 60px;
+  /* font-style: bo; */
+  font-weight: 700;
+}
+.circle__small {
+  color: white;
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.8);
+}
+p.heading {
+  font-weight: 600;
+  font-size: 22px;
+}
+.para {
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  max-width: 300px;
+}
+
+.summary {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 25px;
+  gap: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.hsummary {
+  color: black;
+  margin-top: 18px;
+  margin-left: 10px;
+}
+.rows {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border-radius: 10px;
+}
+.red {
+  background-color: rgba(211, 31, 31, 0.17);
+}
+.yellow {
+  background-color: rgba(196, 210, 0, 0.148);
+}
+.green {
+  background-color: rgba(59, 236, 24, 0.183);
+}
+.purple {
+  background-color: rgba(100, 37, 199, 0.17);
+}
+button {
+  /* max-width: 30%; */
+  background: linear-gradient(
+    to bottom,
+    hsl(252, 100%, 67%),
+    hsl(241, 81%, 54%)
+  );
+  /* background-color: red; */
+  outline: none;
+  height: 45px;
+  border-radius: 30px;
+  color: white;
+  border: none;
+}
+
